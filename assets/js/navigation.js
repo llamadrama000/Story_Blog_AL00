@@ -5,5 +5,7 @@ function toggleSidebar() {
 
 function toggleSection(id) {
     const section = document.getElementById(id);
-    section.classList.toggle('open');
+    if (section) {
+        section.classList.toggle('open');
+    }
 }
