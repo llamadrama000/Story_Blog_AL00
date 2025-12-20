@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stories - Latif</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav id="sidebar">
+        <button onclick="toggleSidebar()">☰ Menu</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <span onclick="toggleSection('short-stories')">Short Stories ▼</span>
+                <ul id="short-stories" class="submenu">
+                    <li><a href="short-stories/prologue.html">Prologue</a></li>
+                    <li><a href="short-stories/chapter1.html">Chapter 1</a></li>
+                </ul>
+            </li>
+            <li>
+                <span onclick="toggleSection('main-story')">Main Story ▼</span>
+                <ul id="main-story" class="submenu">
+                    <li><a href="main-story.html#prologue">Prologue</a></li>
+                    <li><a href="main-story.html#chapter1">Chapter 1</a></li>
+                    <li><a href="main-story.html#chapter2">Chapter 2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome to My Stories</h1>
+        <p>I write short stories and one big story that I release chapter by chapter.</p>
+        <p>Use the menu on the left to read everything. Click the arrows to open and close the lists.</p>
+    </main>
+
+    <script src="assets/js/navigation.js"></script>
+</body>
+</html>
