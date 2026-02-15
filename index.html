@@ -7,38 +7,64 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-<nav id="sidebar">
-    <button onclick="toggleSidebar()">☰ Menu</button>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li>
-            <span onclick="toggleSection('short-stories')">Short Stories ▼</span>
-            <ul id="short-stories" class="submenu">
-                <li>
-                    <span onclick="toggleSection('whispers')">The Whispers in the Blackwood ▼</span>
-                    <ul id="whispers" class="submenu">
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <span onclick="toggleSection('main-story')">Main Story ▼</span>
-            <ul id="main-story" class="submenu">
-                <li><a href="/main-story.html#prologue">Prologue</a></li>
-                <li><a href="/main-story.html#chapter1">Chapter 1</a></li>
-                <li><a href="/main-story.html#chapter2">Chapter 2</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
+    <header>
+        <nav id="top-nav">
+            <div class="nav-container">
+                <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li class="has-submenu">
+                        <span onclick="toggleSection('short-stories')">Short Stories</span>
+                        <ul id="short-stories" class="submenu">
+                            <li class="has-submenu">
+                                <span onclick="toggleSection('whispers')">The Whispers in the Blackwood</span>
+                                <ul id="whispers" class="submenu inner">
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter3.html">Chapter 3</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter4.html">Chapter 4</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter5.html">Chapter 5</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter6.html">Chapter 6</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter7.html">Chapter 7</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter8.html">Chapter 8</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter9.html">Chapter 9</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter10.html">Chapter 10</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter11.html">Chapter 11</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter12.html">Chapter 12</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <span onclick="toggleSection('main-story')">Main Story</span>
+                        <ul id="main-story" class="submenu">
+                            <li><a href="/main-story.html#prologue">Prologue</a></li>
+                            <li><a href="/main-story.html#chapter1">Chapter 1</a></li>
+                            <li><a href="/main-story.html#chapter2">Chapter 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main>
         <h1>Welcome to My Stories</h1>
         <p>Explore my short stories and the ongoing main novel chapter by chapter.</p>
     </main>
+
+    <footer>
+        <h3>Submit Feedback or Comments</h3>
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+            <label for="email">Your Email (optional):</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Your feedback is sent anonymously—your info is not shared.</p>
+    </footer>
 
     <script src="/assets/js/navigation.js"></script>
 </body>
