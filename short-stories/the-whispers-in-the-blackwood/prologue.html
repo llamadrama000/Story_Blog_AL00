@@ -7,102 +7,116 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-<nav id="sidebar">
-    <button onclick="toggleSidebar()">☰ Menu</button>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li>
-            <span onclick="toggleSection('short-stories')">Short Stories ▼</span>
-            <ul id="short-stories" class="submenu">
-                <li>
-                    <span onclick="toggleSection('whispers')">The Whispers in the Blackwood ▼</span>
-                    <ul id="whispers" class="submenu">
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <span onclick="toggleSection('main-story')">Main Story ▼</span>
-            <ul id="main-story" class="submenu">
-                <li><a href="/main-story.html#prologue">Prologue</a></li>
-                <li><a href="/main-story.html#chapter1">Chapter 1</a></li>
-                <li><a href="/main-story.html#chapter2">Chapter 2</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
+    <header>
+        <nav id="top-nav">
+            <div class="nav-container">
+                <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li class="has-submenu">
+                        <span onclick="toggleSection('short-stories')">Short Stories</span>
+                        <ul id="short-stories" class="submenu">
+                            <li class="has-submenu">
+                                <span onclick="toggleSection('whispers')">The Whispers in the Blackwood</span>
+                                <ul id="whispers" class="submenu inner">
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter3.html">Chapter 3</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter4.html">Chapter 4</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter5.html">Chapter 5</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter6.html">Chapter 6</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter7.html">Chapter 7</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter8.html">Chapter 8</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter9.html">Chapter 9</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter10.html">Chapter 10</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter11.html">Chapter 11</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter12.html">Chapter 12</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <span onclick="toggleSection('main-story')">Main Story</span>
+                        <ul id="main-story" class="submenu">
+                            <li><a href="/main-story.html#prologue">Prologue</a></li>
+                            <li><a href="/main-story.html#chapter1">Chapter 1</a></li>
+                            <li><a href="/main-story.html#chapter2">Chapter 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main>
-    <h1>The Whispers in the Blackwood</h1>
-    <h2>Prologue</h2>
+        <h1>The Whispers in the Blackwood</h1>
+        <h2>Prologue</h2>
 
-    <p>The last thing Elara Vance remembered was the silence. Not a peaceful quiet, but the dense, swallowing kind that presses on your eardrums like deep water. It had been her third night working the late shift at the Blackwood Public Library, a squat, brick building that seemed to exhale the smell of damp paper and forgotten things in the perpetual Pacific Northwest damp.</p>
+        <p>The last thing Elara Vance remembered was the silence. Not a peaceful quiet, but the dense, swallowing kind that presses on your eardrums like deep water. It had been her third night working the late shift at the Blackwood Public Library. It was a squat, brick building that seemed to exhale the smell of damp paper and the forgotten things in the perpetual Pacific Northwest damp. The institutional like fluorescent lights buzzed overhead in a feeble attempt to hold back the vast, wet dark that pressed against the high, arched windows. Outside, the familiar world of her small Washington town, the dripping firs, the slick black asphalt of Main Street, the distant, comforting glow of the Eclipse Diner had been erased an hour ago, replaced by the impenetrable curtain of a regular coastal mist. But this was different, this was the prelude.</p>
 
-    <p>She was shelving the last of the returns—a dog-eared copy of local folklore, a thriller, two romance novels—when she saw it through the high, arched window. The fog. It didn’t creep or drift; it rolled. A solid, bruise-purple wall of it, pouring over the crest of Hunter’s Ridge and sliding down into the valley town, swallowing streetlights whole. It moved with a purpose the weather never had in Blackwood, Washington. This fog didn't come from the ocean; it was birthed from the deep woods and the abandoned mine shafts that scarred the mountainside.</p>
+        <p>She was shelving the last of the returns including a dog-eared copy of local folklore, a thriller with a broken spine, two well-thumbed romance novels—when she saw it through the glass. The fog. It didn’t creep or drift; it rolled. A solid, bruise-purple wall of it, pouring over the crest of Hunter’s Ridge and sliding down into the valley town, swallowing streetlights/all the light whole. It moved with a purpose the weather never had in Blackwood. This fog didn't come from the ocean; it was born/birthed from the deep woods and the abandoned mine shafts that scarred the mountainside, a malignant exhalation from the town’s own hidden bones.</p>
 
-    <p>The town’s single, outdated siren began its low, mournful wail: The Curfew. It was instated six months ago, after the first disappearance. Now, it was as much a part of the evening as the setting sun. Everyone knew the rules: be inside, lock your doors and draw your blinds. And the most important rule of all: do not look at the fog.</p>
+        <p>A cold tremor, unrelated to the library’s chill, danced down her spine. The town’s single outdated civil defense siren began its low, mournful wail from the roof of the fire station: The Curfew. It was instated six months ago, after the first disappearance. Now, it was as much a part of the evening as the setting sun. Everyone knew the rules, recited them like a grim catechism, “be inside by the second siren blast, lock your doors, draw your blinds, do not answer unexpected knocks. And the most important, unspoken rule of all: do not look at the fog.”</p>
 
-    <p>Elara’s fingers fumbled with the lock on the library’s front door. The brass was ice cold under her touch. The siren choked off, leaving a vacuum of sound that was immediately filled by a soft, wet rustling from beyond the glass, like something dragging through sodden leaves. She peeked through the narrow pane beside the door.</p>
+        <p>Elara’s fingers, suddenly clumsy, fumbled with the heavy lock on the library’s front door. The brass was ice cold under her touch, as if the cold from outside had already seeped through. The siren choked off into a rattling gasp, leaving a vacuum of sound that was quickly filled. From beyond the glass came a soft, wet rustling, like something dragging through sodden leaves… or through something softer. It was a sound that had no place on a paved street. Holding her breath, she leaned forward, peeking through the narrow, vertical pane beside the door.</p>
 
-    <p>The fog was right outside, a mere foot from the steps. It shimmered, not with reflected light, but with a strange, internal movement. It was a luminescence like foxfire on rotten wood. For a fleeting second, she thought she saw shapes coalescing within it—tall, impossibly thin silhouettes that seemed to sway without wind. A sound seeped through the heavy wood, a chorus of whispers, just on the edge of comprehension. It wasn’t one voice, but dozens, hundreds maybe. They were all murmuring in a language that felt old and terribly wrong. It spoke to a primal part of her brain, the part that knew to fear the dark between the trees.</p>
+        <p>The fog was right outside, a mere foot from the concrete steps. It wasn’t grey but luminous, bruised purple. It shimmered, not with reflected light from the vanished streetlamps, but with a strange, internal movement, like a luminescence on rotten wood. It pulsed, slowly, like a sleeping lung. For a fleeting and terrifying second, she thought she saw shapes coalescing within its depths. There were tall, impossibly thin silhouettes that seemed to sway without wind, their outlines bleeding into the mist around them. A chorus of whispers seeped through the heavy oak door, layered so thickly they became a single, viscous hum, just on the edge of comprehension. It wasn’t one voice, but dozens, hundred’s maybe, all murmuring in a language that felt ancient and terribly wrong. It spoke not to her ears, but to a primal, reptilian part of her brain, the part that knew to fear the dark between the trees, the quiet in an empty house, the space under the bed.</p>
 
-    <p>Her heart was like a frantic bird in her chest. She should run to the back office, barricade herself, call her brother, Leo. But her feet were rooted like an oak tree. The whispers curled around her thoughts, and for a moment, they didn’t sound threatening. They sounded… profoundly, achingly lonely. And inviting.</p>
+        <p>Her heart hammered against her ribs like a frantic bird trapped in a cage of bones. Logic, sharp and survivalist, screamed in her head. Run! Run to the back office, barricade the door, call her brother, Leo. The police. Anyone. This was the trick. This was how they got you. Every missing poster nailed to the community board, every frantic, grainy news segment, told the same story in hushed tones: they heard a loved one’s voice calling from the mist.</p>
 
-    <p>"...so alone out here… come see… we remember you…"</p>
+        <p>But her feet were rooted to the worn linoleum, heavy as stone. The whispers curled around her jumbled thoughts, a psychic fog of their own, and for a moment, they didn’t sound threatening. They sounded… profoundly, achingly lonely. It was an inviting and suddenly a desperate, sympathetic ache bloomed in her own chest in response.</p>
 
-    <p>The voice in the mist was suddenly clear, and it was her grandmother’s, dead ten years, speaking with a perfect, loving tone. It carried the faint scent of rosewater and freshly baked shortbread.</p>
+        <p>"...so alone out here… come see… we remember you…"</p>
 
-    <p>Logic screamed. This was the trick, this was how they got you. Every missing poster nailed to the community board, every frantic news segment, told the same story: they heard a loved one’s voice.</p>
+        <p>The voice in the mist suddenly clarified, cutting through the chorus with a perfect, intimate clarity. Her grandmother who had died ten years ago, spoke with a loving melodic tone Elara had almost forgotten. It wasn’t a memory; it was actually her, here and now. And with that voice came the faint, sweet scent of rosewater and freshly baked shortbread, a smell so powerfully tied to Nana’s kitchen, it made Elara’s eyes sting.</p>
 
-    <p>But the sound of Nana’s voice, the warm, familiar scent that inexplicably filled the cold air of the foyer, shattered her resolve. A tear traced a hot path down her cheek. She was so very tired of being afraid and of living in this beautiful, suffocating cage of a town.</p>
+        <p>Tears welled up in her eyes, making her feel hot suddenly. Logic was a distant shout. Logic became a distant shout, but the fear was still there. It was a cold ball in her gut, being drowned out by a crushing, homesick longing. She was so very tired of the dread that arrived with the setting sun. She was tired of jumping at shadows and of living in this beautiful, suffocating cage of a town where the most dangerous thing was the weather. The voice offered an end to it. An end to the fear. Nana was out there. Nana, who had made her feel safe.</p>
 
-    <p>“Nana?” The word was barely a whisper.</p>
+        <p>“Nana?” The word was a hoarse whisper, cracking her dry lips.</p>
 
-    <p>“Just a step, my girl. Just one step. I’m right here. I’ve missed you.”</p>
+        <p>“Just a step, my girl. Just one step. I’m right here. I’ve missed you.”</p>
 
-    <p>Her hand, moving as if detached from her body, reached for the deadbolt. The metal turned with a definitive, deafening clunk.</p>
+        <p>Her hand, moved like a marionette pulled by strings of grief and exhaustion, reached for the deadbolt, the metal was shockingly cold. It turned with a definitive, deafening clunk that echoed in the silent library like a gunshot.</p>
 
-    <p>The fog surged forward as the door cracked open, not as a gas, but as a liquid thing. It poured over the threshold, cold and heavy as a burial shroud. The whispers erupted into a symphony of welcomes and sighs. The silhouettes in the mist solidified—elongated, humanoid forms with too many joints, their features smudged and shifting like reflections in dirty water. They didn't advance; they simply were. Waiting.</p>
+        <p>The door cracked open and the fog reacted. It didn’t billow in. It surged like a liquid, sentient tide. It poured over the threshold, cold and heavy as a burial shroud, flowing across the floor with eerie swiftness. The whispers erupted from a murmur into a deafening symphony of welcomes and sighs, a thousand overlapping voices promising peace, an end to loneliness, a return to love. The silhouettes in the mist solidified—elongated, humanoid forms with too many joints, their features smudged and shifting like reflections in dirty water. They didn't advance with menace, they simply were, waiting, their forms composed of the same glowing grey mist, arms slightly outstretched.</p>
 
-    <p>Elara had time for one choked scream before the fog filled her mouth, her lungs, her eyes. It didn’t hurt. It was just… cold. And full of whispering, a thousand overlapping memories that weren't her own. The last fragment of her consciousness felt a gentle, boneless pressure around her wrist, not dragging, but like it was leading.</p>
+        <p>Elara had time for one choked, ragged scream before she was swallowed whole by the fog. It filled her mouth, her lungs and her eyes. It didn’t hurt. It was just… cold. It was a deep, marrow-numbing cold that carried a torrent of whispers that weren’t her own—fragments of laughter, echoes of arguments, the taste of forgotten meals, the pain of a hundred lost moments. It was a library of stolen lives being checked out all at once. The last fragment of her own consciousness felt a gentle, boneless pressure around her wrist, not dragging her, but leading her, like a child being guided across a dangerous street.</p>
 
-    <p>The last thing the security camera saw—before the feed dissolved into swirling static—was Elara’s hand, pale and slender, reaching out not in terror, but in a kind of yearning relief, before she was pulled gently into the consuming grey.</p>
+        <p>The last thing the grainy security camera saw—before the feed dissolved into swirling static—was Elara’s hand, pale and slender, reaching out not in terror, but in a kind of yearning relief, before she was pulled gently into the consuming grey.</p>
 
-    <p>Then, nothing.</p>
+        <p>Then, nothing.</p>
 
-    <p>By morning, the fog had retreated to the ridge, leaving the town damp and hollow under a bleak sun the color of an old scar. The library door stood wide open. Inside, Elara Vance’s keys lay on the freshly polished floor next to the returns cart. The only item out of place was the book on local folklore, now lying open on the main desk. A single passage was circled in frantic, red ink, as if scored by a desperate nail:</p>
+        <p>By morning, the fog had retreated to the ridge, leaving the town damp and hollow under a bleak sun the color of an old scar. The library door stood wide open. Inside, Elara Vance’s keys lay on the freshly polished floor next to the returns cart. The only item out of place was the book on local folklore, now lying open on the main desk. A single passage was circled in frantic, red ink, as if scored by a desperate nail:</p>
 
-    <blockquote>
-        “The oldest stories of the Blackwood Valley speak not of ghosts, but of the ‘Hushed Ones,’ entities that dwell in the boundary mist. They do not haunt places; they hunger for memory. They consume not flesh, but the very essence of a person—their past, their identity, their voice—leaving behind not a corpse, but an empty vessel, a whisper in the wind. They call with the voices of your heart, for a thing that cannot remember itself offers no resistance.”
-    </blockquote>
+        <blockquote>
+            “The oldest stories of the Blackwood Valley speak not of ghosts, but of the ‘Hushed Ones,’ entities that dwell in the boundary mist. They do not haunt places; they hunger for memory. They consume not flesh, but the very essence of a person—their past, their identity, their voice—leaving behind not a corpse, but an empty vessel, a whisper in the wind. They call with the voices of your heart, for a thing that cannot remember itself offers no resistance.”
+        </blockquote>
 
-    <p>Outside, a new poster was already going up on the community board. Elara’s smiling face was now the seventh. The town mayor urged calm, he blamed transients, suggested animal attacks. But in the quiet corners of diners and over backyard fences, the people of Blackwood exchanged grim, knowing looks. The fog was getting hungrier. And the whispers, once a faint rumor at the edge of sleep, were getting harder to ignore in the waking world.</p>
+        <p>Outside, a new poster was already going up on the community board. Elara’s smiling face was now the seventh. The town mayor urged calm, he blamed transients, suggested animal attacks. But in the quiet corners of diners and over backyard fences, the people of Blackwood exchanged grim, knowing looks. The fog was getting hungrier. And the whispers, once a faint rumor at the edge of sleep, were getting harder to ignore in the waking world.</p>
 
-    <p>The old-timers, the ones whose families went back to the logging days, say Blackwood was built on a sigh. That the very land here is saturated with longing, a metaphysical sponge for every regret, every lost love, every forgotten dream of the men who tunneled into its heart. They say the fog is the land exhaling.</p>
+        <p>The old-timers, the ones whose families went back to the logging days, say Blackwood was built on a sigh. That the very land here is saturated with longing, a metaphysical sponge for every regret, every lost love, every forgotten dream of the men who tunneled into its heart. They say the fog is the land exhaling.</p>
 
-    <p>They’re wrong.</p>
+        <p>They’re wrong.</p>
 
-    <p>The fog is not an exhale. It’s always reaching and searching. A gathering. And most terrifying of all, it’s learning.</p>
+        <p>The fog is not an exhale. It’s always reaching and searching. A gathering. And most terrifying of all, it’s learning.</p>
 
-    <p>After Elara, the disappearances changed. Before, it was hikers, night drivers, and people who lived on the fringes. Now, it took a child from a supposedly locked bedroom on Maple Lane. It took Frank Bellamy from his living room armchair while his wife made tea in the next room; she returned to find his reading glasses steaming on the side table, the fog retreating from a cracked window, smelling faintly of his favorite cherry pipe tobacco.</p>
+        <p>After Elara, the disappearances changed. Before, it was hikers, night drivers, and people who lived on the fringes. Now, it took a child from a supposedly locked bedroom on Maple Lane. It took Frank Bellamy from his living room armchair while his wife made tea in the next room; she returned to find his reading glasses steaming on the side table, the fog retreating from a cracked window, smelling faintly of his favorite cherry pipe tobacco.</p>
 
-    <p>Panic, once a slow boil, was now an all-out fury. Town meetings dissolved into shouting matches. Sheriff Gareth Riggs, a man built like an old-growth oak, was turning hollow-eyed and frail. His pleas for state help were met with bureaucratic silence and promises of “environmental assessments.”</p>
+        <p>Panic, once a slow boil, was now an all-out fury. Town meetings dissolved into shouting matches. Sheriff Gareth Riggs, a man built like an old-growth oak, was turning hollow-eyed and frail. His pleas for state help were met with bureaucratic silence and promises of “environmental assessments.”</p>
 
-    <p>This is where our story properly begins. Not with the authorities, or the desperate town council, but with two people on the fraying edges of Blackwood’s manufactured reality.</p>
+        <p>This is where our story properly begins. Not with the authorities, or the desperate town council, but with two people on the fraying edges of Blackwood’s manufactured reality.</p>
 
-    <p>Maya Riggs, the sheriff’s daughter, knows her father is lying about what the cameras are really catching. And Leo Vance, Elara’s younger brother, who in the suffocating silence of his empty apartment, has started to hear a faint, familiar whisper in the rustle of his own curtains.</p>
+        <p>Maya Riggs, the sheriff’s daughter, knows her father is lying about what the cameras are really catching. And Leo Vance, Elara’s younger brother, who in the suffocating silence of his empty apartment, has started to hear a faint, familiar whisper in the rustle of his own curtains.</p>
 
-    <p>Both are about to ask dangerous questions. And in Blackwood, questions are like beacons in the mist.</p>
+        <p>Both are about to ask dangerous questions. And in Blackwood, questions are like beacons in the mist.</p>
 
-    <p>They attract attention.</p>
+        <p>They attract attention.</p>
 
-    <p><strong>You are advised to read with the lights on. And to ignore, at all costs, the familiar voice you might hear just beyond your window, calling your name as the first tendrils of grey curl against the glass.</strong></p>
+        <p><strong>You are advised to read with the lights on. And to ignore, at all costs, the familiar voice you might hear just beyond your window, calling your name as the first tendrils of grey curl against the glass.</strong></p>
 
-    <p><em>The fog is coming. Turn the page.</em></p>
-</main>
+        <p><em>The fog is coming. Turn the page.</em></p>
+    </main>
 
     <script src="/assets/js/navigation.js"></script>
 </body>

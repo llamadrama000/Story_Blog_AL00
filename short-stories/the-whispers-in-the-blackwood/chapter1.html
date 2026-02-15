@@ -7,37 +7,51 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-<nav id="sidebar">
-    <button onclick="toggleSidebar()">☰ Menu</button>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li>
-            <span onclick="toggleSection('short-stories')">Short Stories ▼</span>
-            <ul id="short-stories" class="submenu">
-                <li>
-                    <span onclick="toggleSection('whispers')">The Whispers in the Blackwood ▼</span>
-                    <ul id="whispers" class="submenu">
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
-                        <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <span onclick="toggleSection('main-story')">Main Story ▼</span>
-            <ul id="main-story" class="submenu">
-                <li><a href="/main-story.html#prologue">Prologue</a></li>
-                <li><a href="/main-story.html#chapter1">Chapter 1</a></li>
-                <li><a href="/main-story.html#chapter2">Chapter 2</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
+    <header>
+        <nav id="top-nav">
+            <div class="nav-container">
+                <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li class="has-submenu">
+                        <span onclick="toggleSection('short-stories')">Short Stories</span>
+                        <ul id="short-stories" class="submenu">
+                            <li class="has-submenu">
+                                <span onclick="toggleSection('whispers')">The Whispers in the Blackwood</span>
+                                <ul id="whispers" class="submenu inner">
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter3.html">Chapter 3</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter4.html">Chapter 4</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter5.html">Chapter 5</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter6.html">Chapter 6</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter7.html">Chapter 7</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter8.html">Chapter 8</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter9.html">Chapter 9</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter10.html">Chapter 10</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter11.html">Chapter 11</a></li>
+                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter12.html">Chapter 12</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <span onclick="toggleSection('main-story')">Main Story</span>
+                        <ul id="main-story" class="submenu">
+                            <li><a href="/main-story.html#prologue">Prologue</a></li>
+                            <li><a href="/main-story.html#chapter1">Chapter 1</a></li>
+                            <li><a href="/main-story.html#chapter2">Chapter 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main>
         <h1>The Whispers in the Blackwood</h1>
-        <h2>Chapter 1: The Sound of Static</h2>
+        <h2>Chapter 1</h2>
 
         <p>Leo Vance awoke to the sound of whispering. It was layered under the hum of his refrigerator, woven into the distant rush of the midnight freight train passing south of town. For a week now, since Elara vanished, sleep had been a fragile raft on a sea of these half-heard sounds. He’d put it down to grief, to the sheer brain-breaking absence of his sister. His anchor, who’d raised him more than their flighty parents ever had, was a void. The police had no leads. The town had a theory it was too frightened to speak aloud.</p>
 
