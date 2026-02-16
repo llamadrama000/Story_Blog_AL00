@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Whispers in the Blackwood - Chapter 7</title>
+    <title>The Whispers in the Blackwood - Chapter 4</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -14,26 +14,21 @@
                 <ul class="nav-list">
                     <li><a href="/">Home</a></li>
                     <li class="has-submenu">
-                        <span onclick="toggleSection('short-stories')">Short Stories</span>
-                        <ul id="short-stories" class="submenu">
-                            <li class="has-submenu">
-                                <span onclick="toggleSection('whispers')">The Whispers in the Blackwood</span>
-                                <ul id="whispers" class="submenu inner">
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter3.html">Chapter 3</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter4.html">Chapter 4</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter5.html">Chapter 5</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter6.html">Chapter 6</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter7.html">Chapter 7</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter8.html">Chapter 8</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter9.html">Chapter 9</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter10.html">Chapter 10</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter11.html">Chapter 11</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter12.html">Chapter 12</a></li>
-                                </ul>
-                            </li>
+                        <span class="story-title" onclick="toggleSection('whispers')">The Whispers in the Blackwood</span>
+                        <ul id="whispers" class="submenu">
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter3.html">Chapter 3</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter4.html">Chapter 4</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter5.html">Chapter 5</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter6.html">Chapter 6</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter7.html">Chapter 7</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter8.html">Chapter 8</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter9.html">Chapter 9</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter10.html">Chapter 10</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter11.html">Chapter 11</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter12.html">Chapter 12</a></li>
                         </ul>
                     </li>
                     <li class="has-submenu">
@@ -48,6 +43,7 @@
             </div>
         </nav>
     </header>
+
 
     <main>
         <h1>The Whispers in the Blackwood</h1>
@@ -292,6 +288,30 @@
         <p>Maya pushed off the wall, nodding slowly. The fierce vengeance was spent, leaving behind a grim, permanent vigilance. She reloaded the .38 with her last three bullets. “Then let’s go,” she said. “Let’s go tell our town what’s left of their world.”</p>
 
         <p>Together, they began to walk down the rusted walkway, following the path Elara had marked towards a ventilation shaft and a surface that would never again feel truly safe. The silence behind them was no longer predatory. It was the silence of a grave they had built with their own hands.</p>
+   
+        <!-- Chapter navigation arrows -->
+        <div class="chapter-navigation">
+            <a href="/short-stories/the-whispers-in-the-blackwood/prologue.html" id="prev-chapter" class="nav-arrow">← Previous Chapter</a>
+            <a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html" id="next-chapter" class="nav-arrow">Next Chapter →</a>
+        </div>
+
+        <!-- Feedback form -->
+        <div class="feedback-section">
+            <h3>Send Feedback</h3>
+            <form action="mailto:latifamal1025@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name (required):</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email (optional):</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Your Feedback / Comments:</label><br>
+                <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+                <input type="submit" value="Send Feedback">
+            </form>
+            <p class="feedback-note">This will open your email client with a pre-filled message to latifamal1025@gmail.com</p>
+        </div>
     </main>
 
     <script src="/assets/js/navigation.js"></script>

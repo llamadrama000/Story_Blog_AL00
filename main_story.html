@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Story</title>
+    <title>Main Story - Home</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -14,26 +14,21 @@
                 <ul class="nav-list">
                     <li><a href="/">Home</a></li>
                     <li class="has-submenu">
-                        <span onclick="toggleSection('short-stories')">Short Stories</span>
-                        <ul id="short-stories" class="submenu">
-                            <li class="has-submenu">
-                                <span onclick="toggleSection('whispers')">The Whispers in the Blackwood</span>
-                                <ul id="whispers" class="submenu inner">
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter3.html">Chapter 3</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter4.html">Chapter 4</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter5.html">Chapter 5</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter6.html">Chapter 6</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter7.html">Chapter 7</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter8.html">Chapter 8</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter9.html">Chapter 9</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter10.html">Chapter 10</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter11.html">Chapter 11</a></li>
-                                    <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter12.html">Chapter 12</a></li>
-                                </ul>
-                            </li>
+                        <span class="story-title" onclick="toggleSection('whispers')">The Whispers in the Blackwood</span>
+                        <ul id="whispers" class="submenu">
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/prologue.html">Prologue</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter1.html">Chapter 1</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter2.html">Chapter 2</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter3.html">Chapter 3</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter4.html">Chapter 4</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter5.html">Chapter 5</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter6.html">Chapter 6</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter7.html">Chapter 7</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter8.html">Chapter 8</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter9.html">Chapter 9</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter10.html">Chapter 10</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter11.html">Chapter 11</a></li>
+                            <li><a href="/short-stories/the-whispers-in-the-blackwood/chapter12.html">Chapter 12</a></li>
                         </ul>
                     </li>
                     <li class="has-submenu">
@@ -42,6 +37,7 @@
                             <li><a href="/main-story.html#prologue">Prologue</a></li>
                             <li><a href="/main-story.html#chapter1">Chapter 1</a></li>
                             <li><a href="/main-story.html#chapter2">Chapter 2</a></li>
+                            <!-- Add more main story chapters here as needed -->
                         </ul>
                     </li>
                 </ul>
@@ -51,23 +47,57 @@
 
     <main>
         <h1>Main Story</h1>
-        
+        <p>This is the placeholder page for the main ongoing story. Use the navigation menu above to access chapters or switch to short stories.</p>
+
         <section id="prologue">
             <h2>Prologue</h2>
-            <p>Paste your prologue text here.</p>
+            <p>[Prologue content placeholder — insert your main story prologue text here]</p>
         </section>
 
         <section id="chapter1">
             <h2>Chapter 1</h2>
-            <p>Paste your Chapter 1 text here.</p>
+            <p>[Chapter 1 content placeholder — insert your main story Chapter 1 text here]</p>
         </section>
 
         <section id="chapter2">
             <h2>Chapter 2</h2>
-            <p>Paste your Chapter 2 text here (or delete this section until ready).</p>
+            <p>[Chapter 2 content placeholder — insert your main story Chapter 2 text here]</p>
         </section>
+
+        <!-- Chapter navigation arrows (disabled on main-story home) -->
+        <div class="chapter-navigation">
+            <a href="#" id="prev-chapter" class="nav-arrow disabled">← Previous Chapter</a>
+            <a href="#" id="next-chapter" class="nav-arrow disabled">Next Chapter →</a>
+        </div>
+
+        <!-- Feedback form -->
+        <div class="feedback-section">
+            <h3>Send Feedback</h3>
+            <form action="mailto:latifamal1025@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name (required):</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email (optional):</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Your Feedback / Comments:</label><br>
+                <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+                <input type="submit" value="Send Feedback">
+            </form>
+            <p class="feedback-note">This will open your email client with a pre-filled message to latifamal1025@gmail.com</p>
+        </div>
     </main>
 
     <script src="/assets/js/navigation.js"></script>
+    <script>
+        // Chapter navigation arrows logic (disabled on main-story index)
+        document.addEventListener('DOMContentLoaded', function() {
+            const prevLink = document.getElementById('prev-chapter');
+            const nextLink = document.getElementById('next-chapter');
+            prevLink.classList.add('disabled');
+            nextLink.classList.add('disabled');
+        });
+    </script>
 </body>
 </html>
